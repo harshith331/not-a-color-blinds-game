@@ -1,0 +1,110 @@
+
+body{
+  background-color: black;
+  margin: 0;
+
+}
+
+.top{
+  background-color: #0E61A6;
+  color: white;
+  text-align:  center;
+  padding-top: 20px;
+  margin: 0;
+  height: 100px;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  background-color: ;
+  margin: 0;
+  height: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #7D858C;
+}
+
+.square{
+  width: 30%;
+  background-color: white;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  float:left;
+  margin: 1.66%;
+  border-radius: 40px;
+}
+
+.container{
+  max-width: 750px;
+  height: 500px;
+  margin: auto;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+  margin: 0;
+}
+
+.correct{
+  background-color: green;
+  color: white;
+
+}
+
+.again{
+  background-color: red;
+  color: white;
+}
+
+.mode , .mode Selected{
+  float: right;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+  margin: 0;
+}
+
+button{
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: #7D858C;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  outline: none;
+}
+
+.score{
+  color: white;
+  width: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: auto;
+  border: 10px solid white;
+  margin-top: 2%;
+
+}
+
+h3{
+  margin: 0;
+  display: block;
+  text-align: center;
+  height: 10%;
+}
+p{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  /* display: inline-block; */
+}
